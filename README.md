@@ -8,11 +8,12 @@ python interface for Optimal Reciprocal Collision Avoidance (ORCA), implemented 
     ```
     pip install torch
     ```
-2. compile the original C++ sode and setup the python lib
+2. compile the original C++ code and setup the python lib
     ```
     make
     ```
-3. import pyorca in python and you can use the orca algorithm in python. A demo is in pyscripts/Blocks.py
+3. simply import pyorca in python and you can play with it. A demo is in pyscripts/Blocks.py
     ```
     python pyscripts/Blocks.py
     ```
+4. Definitions of interfaces are in pybind/bind.cpp . You can modify them as you want.
